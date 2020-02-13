@@ -5,7 +5,7 @@ import tensorflow.keras as tfk
 import tensorflow.keras.layers as tfkl
 import tensorflow.keras.models as tfkm
 
-class SVN(tfkm.Sequential):
+class SVN(object):
     def __init__(self):
         super(SVN, self).__init__()
 
@@ -18,9 +18,13 @@ class SVN(tfkm.Sequential):
 
     def add_network(self):
         M, N = self.dims
-        self.add(tfkl.Conv2D(32, (3, 3), activation='relu', input_shape=(M, N, 3)))
-        self.add(tfkl.MaxPooling2D((2, 2)))
-        self.add(tfkl.Conv2D(64, (3, 3), activation='relu'))
-        self.add(tfkl.MaxPooling2D((2, 2)))
-        self.add(tfkl.Conv2D(64, (3, 3), activation='relu'))
+        model = tfkm.Sequential()
+        model.add(tfkl.Conv2D(32, (3, 3), activation='relu', input_shape=(M, N, 3)))
+        model.add(tfkl.MaxPooling2D((2, 2)))
+        model.add(tfkl.Conv2D(64, (3, 3), activation='relu'))
+        model.add(tfkl.MaxPooling2D((2, 2)))
+        model.add(tfkl.Conv2D(32, (3, 3), activation='relu'))
+        model.add(tfkl.Flatten())
+        model.add(tfkl.Dense(10, activation='softmax'))
+        self.model = model
         return
