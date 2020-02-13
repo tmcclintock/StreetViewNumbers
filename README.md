@@ -1,4 +1,5 @@
-# StreetViewNumbers
+# StreetViewNumbers [![Build Status](https://travis-ci.com/tmcclintock/StreetViewNumbers.svg?branch=master)](https://travis-ci.com/tmcclintock/StreetViewNumbers) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 Using AI to recognize address numbers.
 
 ## Insight data challenge
