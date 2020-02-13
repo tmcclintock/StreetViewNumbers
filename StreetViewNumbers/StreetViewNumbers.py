@@ -23,7 +23,7 @@ class SVN(object):
         model.add(tfkl.MaxPooling2D((2, 2)))
         model.add(tfkl.Conv2D(64, (3, 3), activation='relu'))
         model.add(tfkl.MaxPooling2D((2, 2)))
-        model.add(tfkl.Conv2D(32, (3, 3), activation='relu'))
+        model.add(tfkl.Conv2D(16, (3, 3), activation='relu'))
         model.add(tfkl.Flatten())
         model.add(tfkl.Dense(10, activation='softmax'))
         self.model = model
