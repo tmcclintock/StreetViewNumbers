@@ -3,7 +3,7 @@ Using AI to recognize address numbers.
 
 ## Insight data challenge
 
-This repository is part of the Insight Data Challenge series, which is a well-defined data science challenge that I am supposed to complete in less than six hours. For this project, I am using the [street view house numbers dataset](http://ufldl.stanford.edu/housenumbers/) (SVHN). For now, I will only be using the cropped, 32x32 centered-on-a-digit format (format 2 on the website).
+This repository is part of the Insight Data Challenge series, which has well-defined data science challenges that I am supposed to complete in less than six hours. For this project, I am using the [street view house numbers dataset](http://ufldl.stanford.edu/housenumbers/) (SVHN). For now, I will only be using the cropped, 32x32 centered-on-a-digit format (format 2 on the website).
 
 ## Installation
 
