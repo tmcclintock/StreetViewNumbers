@@ -1,0 +1,1 @@
+This directory contains the data (training, testing, and extra) from the SVHN dataset found [here](http://ufldl.stanford.edu/housenumbers/).
