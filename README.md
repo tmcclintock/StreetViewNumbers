@@ -13,7 +13,7 @@ First install the requirements and then this project with
 ```bash
 pip install -r requirements.txt
 python setup.py install
-``
+```
 
 The requirements are:
 
