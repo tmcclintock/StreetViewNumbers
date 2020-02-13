@@ -34,6 +34,10 @@ pytest
 
 If any tests fail, please raise an issue [here](https://github.com/tmcclintock/StreetViewNumbers/issues).
 
+## Data
+
+The SVHN data found [here](http://ufldl.stanford.edu/housenumbers/) are publically available (for non-commercial use). To replicate the work in the notebooks in this repository, you must download the data and put it in the `data` directory (no processing necessary).
+
 ## Usage
 
 TBD
