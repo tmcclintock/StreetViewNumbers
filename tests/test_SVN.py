@@ -9,4 +9,4 @@ def test_SVN():
 
 def test_SVN_has_attr():
     s = SVN.SVN()
-    npt.assert_equal(True, hasattr(s, "att"))
+    npt.assert_equal(True, hasattr(s, "dims"))
